@@ -37,21 +37,21 @@
 // Constructor Function
 
 
-function orang(nama, ukuran){
-    this.nama=nama;
-    this.ukuran = ukuran;
+// function orang(nama, ukuran){
+//     this.nama=nama;
+//     this.ukuran = ukuran;
 
-    this.makan = function (porsi){
-        this.ukuran += porsi;
-        console.log(`Hallo ${this.nama}, Selamat Menikmati`)
-    }
-    this.main = function (jam){
-        this.ukuran -= jam;
-        console.log(`Hallo ${this.nama}, Selamat Bermain`)
-    }
+//     this.makan = function (porsi){
+//         this.ukuran += porsi;
+//         console.log(`Hallo ${this.nama}, Selamat Menikmati`)
+//     }
+//     this.main = function (jam){
+//         this.ukuran -= jam;
+//         console.log(`Hallo ${this.nama}, Selamat Bermain`)
+//     }
 
-}
+// }
 
-let Bean = new orang('Bean',10)
+// let Bean = new orang('Bean',10)
 
 
