@@ -22,8 +22,8 @@ if (c == 1) {
   while (i < p) {
     var angka1 = Math.floor(Math.random() * b) + 1;
     var angka2 = Math.floor(Math.random() * b) + angka1;
-    var ja = prompt("Hitung " + angka2 + " dikurang " + angka1);
-    var ha = angka2 - angka1;
+    var ja = prompt("Hitung " + angka1 + " dikurang " + angka2);
+    var ha = angka1 - angka2;
     if (ja == ha) {
       alert("Jawaban betul");
       n++;
